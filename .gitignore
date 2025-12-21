@@ -1,0 +1,30 @@
+# =========================
+# KiCad (safe ignores)
+# =========================
+
+# Per-user project state (ALWAYS ignore)
+*.kicad_prl
+
+# Footprint cache
+fp-info-cache
+**/fp-info-cache
+
+# Backups / autosaves
+*.bak
+*.bck
+*-backup
+*-save
+*_backup
+**/_autosave-*
+**/~*
+
+# Temporary / lock files
+*.tmp
+*.temp
+*.lock
+.~lock.*
+
+# OS noise
+.DS_Store
+Thumbs.db
+
