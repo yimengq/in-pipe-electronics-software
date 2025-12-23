@@ -5,6 +5,251 @@
 	(uuid "8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209")
 	(paper "A2")
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DRV8234RTER_1"
 			(pin_names
 				(offset 0.254)
@@ -431,6 +676,113 @@
 						)
 					)
 					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2704,6 +3056,18 @@
 		(uuid 17936162-d411-41d7-b8e8-5274bb735a05)
 	)
 	(rectangle
+		(start 501.65 187.96)
+		(end 570.23 215.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 29c35e31-0d50-4488-96d5-f982cecd9fc0)
+	)
+	(rectangle
 		(start 208.28 243.84)
 		(end 292.1 295.91)
 		(stroke
@@ -2774,6 +3138,18 @@
 			(type none)
 		)
 		(uuid 8d9db448-2995-4850-9651-cb5f8b520fa4)
+	)
+	(rectangle
+		(start 505.46 224.79)
+		(end 574.04 252.73)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9d04259f-1370-4ff1-a17a-1751adaea522)
 	)
 	(rectangle
 		(start 189.23 40.64)
@@ -2892,6 +3268,26 @@
 			)
 		)
 		(uuid "af6fcdad-ced0-4aac-ace3-0efbcb44824f")
+	)
+	(text "Connectors\n"
+		(exclude_from_sim no)
+		(at 562.61 218.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b139145b-0573-42fd-9084-4259cd2306cf")
+	)
+	(text "Through Holes"
+		(exclude_from_sim no)
+		(at 566.42 255.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d820642c-2449-42af-895d-6d689b1ae510")
 	)
 	(text "5V Regulator\n"
 		(exclude_from_sim no)
@@ -5765,6 +6161,72 @@
 		)
 		(uuid "ef6e1585-b862-4a02-9600-d36d2cbe8df3")
 	)
+	(global_label "GND"
+		(shape input)
+		(at 553.72 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "058d8d17-cbbb-4ecb-8f06-a1639a6cdd99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 560.5757 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 533.4 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07a3fa3f-9c47-4dde-b209-8904edd1ba59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 533.4 251.9657 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 525.78 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "093aa1cb-a3df-4f85-9b57-beb68bae4992")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 532.3333 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Motor 3 Out 2"
 		(shape input)
 		(at 408.94 73.66 0)
@@ -6073,6 +6535,50 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 554.99 231.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37986608-0e36-4775-a4b5-98f19740c60d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 554.99 237.6328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 553.72 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "395e9c55-f612-4898-b0bd-5295915237a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 559.0033 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 408.94 86.36 0)
@@ -6086,6 +6592,28 @@
 		(uuid "3ae799dd-9a8b-4efe-a6f8-017f8c056e17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 415.4933 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 525.78 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bce319a-a8d6-4c1f-8383-5bedc8c28fe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 532.6357 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,6 +6711,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 554.99 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bd50281-449e-43da-ab9c-cbaba2b3d5df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 554.99 251.9657 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 204.47 138.43 180)
@@ -6227,6 +6777,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 525.78 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57b7c884-35c7-4a8c-8b28-a87f3fcd9c1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 532.2728 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VIN"
 		(shape input)
 		(at 396.24 200.66 180)
@@ -6262,6 +6834,28 @@
 		(uuid "595eb88d-91ed-46bb-bf0d-9f771531b83e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 264.7261 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 525.78 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a839a39-ece7-4e99-9ae8-c4f621437045")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 531.0633 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,6 +7107,50 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 533.4 231.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f03c686-e8a7-4ef9-88dc-646fe4cd7688")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 533.4 236.4233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 511.81 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89627e6c-33bb-405c-9713-2c61769b19c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 511.81 251.9657 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 231.14 257.81 90)
@@ -6667,6 +7305,28 @@
 			)
 		)
 	)
+	(global_label "3.3V"
+		(shape input)
+		(at 511.81 231.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7a64248-22ce-4e9e-a61d-591ccf269f5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 511.81 238.2376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DAC2 Out"
 		(shape input)
 		(at 255.27 125.73 0)
@@ -6711,6 +7371,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 553.72 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d24e8399-e416-463a-a05a-f811f8d49f99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 560.2733 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Battery In"
 		(shape input)
 		(at 429.26 271.78 0)
@@ -6746,6 +7428,28 @@
 		(uuid "db3279d7-c503-42c3-8e49-257c5cc507d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.3935 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 553.72 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e04f6d3a-9c66-4f29-a732-79c1f86ed530")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 560.2128 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,6 +7765,79 @@
 			(project "MotorDriverBreakout"
 				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 548.64 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "075375d9-2017-460d-92bf-a75ecaafdb81")
+		(property "Reference" "J2"
+			(at 550.926 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST SH 4 pin"
+			(at 550.926 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 548.64 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 548.64 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 548.64 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "91a54eca-39a6-44fb-a032-db96f50a37c9")
+		)
+		(pin "3"
+			(uuid "d716e91d-e1b9-49d5-b096-82e372b12456")
+		)
+		(pin "2"
+			(uuid "444b7747-ba55-41b6-9448-97f764b1136c")
+		)
+		(pin "1"
+			(uuid "8703801d-b2d8-4d6e-a2f2-d2d776d4c423")
+		)
+		(instances
+			(project "MotorDriverBreakout"
+				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8877,6 +9654,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 511.81 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e098cda-8730-4372-adae-2128926df93b")
+		(property "Reference" "H4"
+			(at 514.35 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Through Hole"
+			(at 514.35 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 511.81 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 511.81 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 511.81 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7224ea7e-ff61-4a62-a16e-c02774e885e5")
+		)
+		(instances
+			(project "MotorDriverBreakout"
+				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MotorDriverBreakoutLib:CAP_CERAMIC0805-NOOUTLINE")
 		(at 64.77 124.46 0)
 		(unit 1)
@@ -10209,6 +11053,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 554.99 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a36a59c-88d4-4e95-baee-9d00fb6760cf")
+		(property "Reference" "H3"
+			(at 557.53 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Through Hole"
+			(at 557.53 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 554.99 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 554.99 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53ce0ef7-f9b9-4e51-8f9d-872257cc9d25")
+		)
+		(instances
+			(project "MotorDriverBreakout"
+				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MotorDriverBreakoutLib:CAP_CERAMIC0805")
 		(at 262.89 66.04 0)
 		(unit 1)
@@ -10272,6 +11183,79 @@
 			(project "MotorDriverBreakout"
 				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 520.7 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6efc35ab-0a4f-4796-9c17-69647a7d7638")
+		(property "Reference" "J1"
+			(at 522.986 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JST SH 4 pin"
+			(at 522.986 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 520.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 520.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 520.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c738a0b5-f545-440c-8849-4130cb95cc56")
+		)
+		(pin "3"
+			(uuid "0afbbab1-1f8d-4028-b1b4-3b3eb3f89877")
+		)
+		(pin "2"
+			(uuid "19d4d4d8-b030-4ce6-b4b6-e8464b7ce35a")
+		)
+		(pin "1"
+			(uuid "8e95729d-2b91-4917-83a5-e8505a95ae41")
+		)
+		(instances
+			(project ""
+				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11196,6 +12180,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 533.4 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b38f446-017a-4794-823a-c612f180a43e")
+		(property "Reference" "H2"
+			(at 535.94 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Through Hole"
+			(at 535.94 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 533.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 533.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 533.4 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e48bda1-bae0-48fb-b3be-a9e3c9b93817")
+		)
+		(instances
+			(project "MotorDriverBreakout"
+				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MotorDriverBreakoutLib:CAP_CERAMIC0805")
 		(at 358.14 269.24 0)
 		(unit 1)
@@ -11599,6 +12650,73 @@
 			(project "MotorDriverBreakout"
 				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 511.81 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a925ab83-edc3-4580-96e8-669f149e3f7a")
+		(property "Reference" "H1"
+			(at 514.35 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Through Hole"
+			(at 514.35 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 511.81 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 511.81 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 511.81 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b54f09d9-283f-491a-a942-b0e1a4e2c3f2")
+		)
+		(instances
+			(project ""
+				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -12598,6 +13716,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 533.4 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba005289-7c54-4010-b5f6-911b47ef739f")
+		(property "Reference" "H5"
+			(at 535.94 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Through Hole"
+			(at 535.94 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 533.4 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 533.4 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 533.4 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb6e924-5c84-4722-b406-c643f7da0693")
+		)
+		(instances
+			(project "MotorDriverBreakout"
+				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MotorDriverBreakoutLib:GND")
 		(at 229.87 226.06 0)
 		(unit 1)
@@ -13352,6 +14537,73 @@
 			(project "MotorDriverBreakout"
 				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
 					(reference "#U$032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 554.99 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e59b6e8a-9b76-4b5a-92f4-50a3ecd4f896")
+		(property "Reference" "H6"
+			(at 557.53 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Through Hole"
+			(at 557.53 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 554.99 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 554.99 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 554.99 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "205cacc2-beb6-428b-960c-94a33f477844")
+		)
+		(instances
+			(project "MotorDriverBreakout"
+				(path "/8c7fbb5f-9bb2-4d3a-9fa8-9df6e610b209"
+					(reference "H6")
 					(unit 1)
 				)
 			)
