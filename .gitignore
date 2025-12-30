@@ -31,3 +31,38 @@ Thumbs.db
 # KiCad backups
 pcb/**/kicad/*-backups/
 
+
+# =========================
+# KiCad auto backup files
+# =========================
+*-backups/
+*.bak
+*.bck
+*.tmp
+*.autosave
+~*
+
+# =========================
+# KiCad cache & temp
+# =========================
+*.kicad_prl
+fp-info-cache
+.sym-lib-table.bak
+.fp-lib-table.bak
+
+# =========================
+# Fabrication outputs
+# =========================
+Gerber/
+Gerbers/
+*.gbr
+*.drl
+*.zip
+BOM/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
